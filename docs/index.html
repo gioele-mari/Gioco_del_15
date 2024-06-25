@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/2.BnHbhbuk.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.DgI6hd6m.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.Cq1YUzIp.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BvLojk_z.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.tnTknjGV.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.HHnnBpHW.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.KEV-Zvad.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.Jor16WI_.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <main class="svelte-j7ccpc"><h1 class="svelte-j7ccpc" data-svelte-h="svelte-mqlbm3">Premi il pulsante inizia gioco</h1> <h1 class="svelte-j7ccpc" data-svelte-h="svelte-in9uro">Prima di Iniziare !!!</h1> <br> <div><button class="svelte-j7ccpc" data-svelte-h="svelte-yyedz5">Inizia il Gioco</button></div> <br> <div id="timer" data-svelte-h="svelte-1wfmtv">00:00</div> <br> <div class="grid svelte-j7ccpc"><div class="cell svelte-j7ccpc">1 </div><div class="cell svelte-j7ccpc">2 </div><div class="cell svelte-j7ccpc">3 </div><div class="cell svelte-j7ccpc">4 </div><div class="cell svelte-j7ccpc">5 </div><div class="cell svelte-j7ccpc">6 </div><div class="cell svelte-j7ccpc">7 </div><div class="cell svelte-j7ccpc">8 </div><div class="cell svelte-j7ccpc">9 </div><div class="cell svelte-j7ccpc">10 </div><div class="cell svelte-j7ccpc">11 </div><div class="cell svelte-j7ccpc">12 </div><div class="cell svelte-j7ccpc">13 </div><div class="cell svelte-j7ccpc">14 </div><div class="cell svelte-j7ccpc">15 </div><div class="cell svelte-j7ccpc">  </div></div> <div id="congratulations" class="svelte-j7ccpc"></div> </main> 
+			
+			<script>
+				{
+					__sveltekit_17pgt6l = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/Gioco_del_15"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.DgI6hd6m.js"),
+						import("./_app/immutable/entry/app.tnTknjGV.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
